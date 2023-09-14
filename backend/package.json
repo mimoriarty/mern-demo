@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend server",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect ./index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dbinit": "nodemon --inspect ./scripts/dbinit.js --exec babel-node"
+  },
+  "keywords": [
+    "express",
+    "node"
+  ],
+  "author": "moriarty.mickey@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.17",
+    "@babel/node": "^7.22.15",
+    "@babel/preset-env": "^7.22.15",
+    "@babel/preset-react": "^7.22.15",
+    "nodemon": "^3.0.1"
+  }
+}

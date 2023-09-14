@@ -1,0 +1,26 @@
+{
+  "name": "mern-demo",
+  "version": "1.0.0",
+  "description": "Mongo Express React Node stack learning project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mimoriarty/mern-demo.git"
+  },
+  "keywords": [
+    "mern",
+    "mongo",
+    "express",
+    "react",
+    "node"
+  ],
+  "author": "moriarty.mickey@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mimoriarty/mern-demo/issues"
+  },
+  "homepage": "https://github.com/mimoriarty/mern-demo#readme"
+}
